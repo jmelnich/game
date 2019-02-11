@@ -1,8 +1,8 @@
-export const bird = document.getElementById('bird');
-const area = document.getElementById('area');
-const column = document.getElementById('column');
+export const bird = document.getElementById("bird");
+const area = document.getElementById("area");
+const column = document.getElementById("column");
 
-function getTopDistance(point, place) {
+export function getTopDistance(point, place) {
   return point.offsetTop + point.offsetHeight - place.offsetTop;
 }
 
