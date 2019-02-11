@@ -4,30 +4,30 @@
   border: 1px solid gray;
 }
 
-.block {
-  height: 200px;
-  width: 200px;
-  position: relative;
-  animation-iteration-count: infinite;
-}
+//.block {
+//  height: 200px;
+//  width: 200px;
+//  position: relative;
+//  animation-iteration-count: infinite;
+//}
 
 @keyframes upper {
-  0%  {background-color:yellow; left:460px; top:0}
+  0%  {background-color:yellow; left:960px; top:0}
   90% {background-color:red; left:-960px; top:0}
 }
 
 @keyframes medium {
-  0%  {background-color:yellow; left:460px; top:100px}
+  0%  {background-color:yellow; left:960px; top:100px}
   90% {background-color:red; left:-960px; top:100px}
 }
 
 @keyframes lower {
-  0%  {background-color:yellow; left:460px; top:200px}
+  0%  {background-color:yellow; left:960px; top:200px}
   90% {background-color:red; left:-960px; top:200px}
 }
 
 @keyframes bottom {
-  0%  {background-color:yellow; left:460px; top:400px}
+  0%  {background-color:yellow; left:960px; top:400px}
   90% {background-color:red; left:-960px; top:400px}
 }
 
