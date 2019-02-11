@@ -2,11 +2,13 @@ import {generateBlock} from './blockGenerator';
 import { move, createBlock } from './move';
 
 const start = document.getElementsByClassName('transition')[0];
+const h1 = document.getElementsByTagName('h1')[0];
 const arrPosition = ['upper'];
 const arrSpeed = [15];
 
 function openField() {
   start.remove();
+  h1.remove();
 
   setInterval(() => {
     const block = generateBlock();
