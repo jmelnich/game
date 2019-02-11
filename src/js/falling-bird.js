@@ -17,7 +17,7 @@ function calculateHeight() {
     if (up) {
       return (heightNew = Math.round(startHeight + heightDelta, 0));
     }
-    return (heightNew = startHeight - heightDelta);
+    return (heightNew = Math.round(startHeight - heightDelta, 0));
   }
   return heightAdjustment;
 }
