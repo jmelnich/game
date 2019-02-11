@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.area {
+  position: relative;
+  width: 960px;
+  height: 700px;
+  background-color: silver;
+}
+
+.bird {
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+}
+
+.column {
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  width: 10%;
+  height: 70%;
+  background-color: green;
+}
