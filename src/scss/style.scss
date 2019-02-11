@@ -1,27 +1,6 @@
-@import "_demo";
+@import "_bird";
 @import "blocks";
-
-.container {
-  height: 700px;
-  width: 960px;
-}
-.blockContainer {
-  position: relative;
-  width: 10%;
-  height: 100%;
-  background-color: aqua;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.innerBlock {
-  position: absolute;
-  box-sizing: border-box;
-
-  background-color: #fff;
-  width: 100%;
-  border: 1px solid black;
-}
+@import "blocks";
 
 body {
     font-family: "FlappyBirdy", sans-serif;
@@ -65,3 +44,24 @@ body {
     cursor: pointer;
 }
 
+.blockContainer {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: aqua;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.innerBlock {
+  position: absolute;
+  box-sizing: border-box;
+
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid black;
+}

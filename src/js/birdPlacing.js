@@ -1,4 +1,4 @@
-const bird = document.getElementById('bird');
+export const bird = document.getElementById('bird');
 const area = document.getElementById('area');
 const column = document.getElementById('column');
 

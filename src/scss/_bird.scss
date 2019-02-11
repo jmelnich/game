@@ -1,0 +1,13 @@
+.bird {
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  border: 1px solid black;
+
+  &--is_disabled {
+    display: none;
+  }
+}
