@@ -1,33 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Game</title>
-</head>
-<body>
-    <div class="container">
-        <img src="src/images/flappy.gif" alt="" class="img">
-        <h1 class="title">
-            Flappy bird
-        </h1>
-        <a class="transition">
-            <div class="button">start</div>
-        </a>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <img src="src/images/flappy.gif" alt="" class="img" />
+      <h1 class="title">
+        Flappy bird
+      </h1>
+      <a class="transition">
+        <div class="button">start</div>
+      </a>
 
-        <div class="bird bird--is_disabled" id="bird">
-
-        </div>
+      <div class="bird bird--is_disabled" id="bird"></div>
     </div>
 
-<audio id="myAudio">
-    <source src="sounds/sfx_hit.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+    <audio id="myAudio">
+      <source src="sounds/sfx_hit.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
 
-<button class="hit" id="hit">hit</button>
-
-</body>
+    <button class="hit" id="hit">hit</button>
+  </body>
 </html>
