@@ -3,7 +3,7 @@ import { move, createBlock } from './move';
 
 const start = document.getElementsByClassName('transition')[0];
 const arrPosition = ['upper'];
-const arrSpeed = [10];
+const arrSpeed = [15];
 
 function openField() {
   start.remove();
@@ -16,6 +16,6 @@ function openField() {
     setTimeout(() => {
       document.getElementsByClassName('blockContainer')[0].remove();
     }, 4000);
-  }, 1000);
+  }, 4000);
 }
 start.addEventListener('click', openField);
