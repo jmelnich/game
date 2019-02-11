@@ -5,3 +5,4 @@ import game from './js/game';
 import './js/move';
 import './js/falling-bird';
 import './js/blockGenerator';
+import './js/init';
