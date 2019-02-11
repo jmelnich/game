@@ -1,12 +1,5 @@
 @import "blocks";
 
-body {
-  height: 100vh;
-  width: 100vm;
-  //background-color: antiquewhite;
-  margin: auto 0;
-}
-
 .container {
   height: 700px;
   width: 960px;
@@ -30,4 +23,45 @@ body {
   border: 1px solid black;
 }
 
+body {
+    font-family: "FlappyBirdy", sans-serif;
+}
+.container {
+    background: url('../images/back.png');
+    width: 960px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img {
+    width: 10%;
+    position: absolute;
+    top: 50px;
+}
+.title {
+    font-size: 148px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    //color: gold;
+}
+.transition {
+    text-decoration: none;
+    color: inherit;
+}
+.button {
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size: 60px;
+    background: #c9f;
+    border: 5px solid #b366ff;
+    outline: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 
