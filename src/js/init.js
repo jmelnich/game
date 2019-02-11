@@ -18,10 +18,16 @@ function openField() {
     const block = generateBlock();
     const randomPosition = arrPosition[Math.floor(Math.random() * arrPosition.length)];
     const randomSpeed = arrSpeed[Math.floor(Math.random() * arrSpeed.length)];
-    move (block, randomSpeed, randomPosition);
+    move(block, randomSpeed, randomPosition);
     setTimeout(() => {
       document.getElementsByClassName('blockContainer')[0].remove();
     }, 4000);
   }, 4000);
 }
 start.addEventListener('click', openField);
+
+window.addEventListener("keydown", dealWithKeyboard, false);
+
+function dealWithKeyboard() {
+  bird.style.top -= '10px';
+}
