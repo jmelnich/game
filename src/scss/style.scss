@@ -1,1 +1,33 @@
 @import "blocks";
+
+body {
+  height: 100vh;
+  width: 100vm;
+  //background-color: antiquewhite;
+  margin: auto 0;
+}
+
+.container {
+  height: 700px;
+  width: 960px;
+}
+
+.blockContainer {
+  position: relative;
+  width: 10%;
+  height: 100%;
+  background-color: aqua;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.innerBlock {
+  position: absolute;
+  box-sizing: border-box;
+
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
